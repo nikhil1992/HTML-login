@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+#head {
+    background-image: url("tumblr_static_header-background_v07.jpg");
+    background-repeat: no-repeat;
+    border: medium hidden;
+    border-bottom-right-radius: 52px;
+    border-top-left-radius: 52px;
+    color: #FFFAFA;
+    font-size: 71px;
+    font-weight: 200;
+    height: 150px;
+    text-align: center;
+    width: 100%;
+}
+.nav li {
+    display: inline-block;
+}
+.nav a:link {
+    display: block;
+    padding: 0px;
+    text-align: center;
+    text-decoration: none;
+    width: 131px;
+    text-align: center;
+    font-size: 21px;
+    font-family: DejaVu Sans;
+    background: transparent;
+}
+#foot {
+    background-color: #525152;
+    bottom: 0;
+    color: #FFEFD5;
+    font-family: fantasy;
+    height: 86px;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    font-size: x-small;
+}
+.nav a:hover {
+    background: black;
+}
+.nav {
+    position: absolute;
+    left: 266px;
+    top: 100px;
+}
